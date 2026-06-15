@@ -1,0 +1,1039 @@
+body{
+
+background:black;
+color:white;
+font-family:Segoe UI;
+
+}
+
+.navbar-custom{
+
+background:#0f0f0f;
+box-shadow:0 0 20px #8b5cf6;
+
+}
+
+.logo{
+
+width:50px;
+margin-right:10px;
+
+}
+
+.logo-text{
+
+font-size:30px;
+font-weight:bold;
+
+background:linear-gradient(
+90deg,
+#ff66ff,
+#8b5cf6,
+#38bdf8
+);
+
+background-clip:text;
+    -webkit-background-clip:text;
+    color:transparent;
+    -webkit-text-fill-color:transparent;
+
+}
+
+.nav-link{
+
+color:white !important;
+transition:0.3s;
+
+}
+
+.nav-link:hover{
+
+color:#38bdf8 !important;
+
+}
+
+.carousel-img{
+
+height:550px;
+object-fit:cover;
+
+}
+
+.titulo-seccion{
+
+text-align:center;
+margin-bottom:40px;
+
+background:linear-gradient(
+90deg,
+#ff66ff,
+#38bdf8
+);
+
+background-clip:text;
+    -webkit-background-clip:text;
+    color:transparent;
+    -webkit-text-fill-color:transparent;
+
+}
+
+.card-anime{
+
+background:#121212;
+
+border:2px solid #8b5cf6;
+
+box-shadow:0 0 15px #8b5cf6;
+
+transition:0.5s;
+
+}
+
+.card-anime:hover{
+
+transform:translateY(-10px);
+
+box-shadow:0 0 25px #38bdf8;
+
+}
+
+.card img{
+
+height:300px;
+
+object-fit:cover;
+
+}
+
+.btn-custom{
+
+background:#8b5cf6;
+
+border:none;
+
+}
+
+.btn-custom:hover{
+
+background:#38bdf8;
+
+}
+
+footer{
+
+text-align:center;
+
+padding:20px;
+
+margin-top:50px;
+
+background:#111;
+
+}
+
+.modal-custom{
+
+background:#181818;
+
+color:rgb(255, 255, 255);
+
+}
+
+@keyframes aparecer{
+
+from{
+
+opacity:0;
+
+transform:translateY(40px);
+
+}
+
+to{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
+
+}
+
+.card-anime{
+
+animation:aparecer 1s ease;
+
+}
+
+.carousel{
+
+margin-top:20px;
+
+border-radius:20px;
+
+overflow:hidden;
+
+box-shadow:
+0 0 15px #8b5cf6,
+0 0 30px #38bdf8,
+0 0 45px #ff66ff;
+
+}
+
+.carousel-img{
+
+height:550px;
+
+object-fit:cover;
+
+border-radius:20px;
+
+}
+
+.boton-carrusel{
+
+width:80px;
+
+transition:0.4s;
+
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+
+background-color:rgba(139,92,246,.8);
+
+border-radius:50%;
+
+padding:25px;
+
+box-shadow:
+0 0 10px #8b5cf6,
+0 0 20px #38bdf8;
+
+}
+
+.boton-carrusel:hover{
+
+transform:scale(1.2);
+
+}
+
+.carousel-caption{
+
+background:rgba(0,0,0,.5);
+
+padding:15px;
+
+border-radius:15px;
+
+backdrop-filter:blur(8px);
+
+}
+
+.carousel-indicators button{
+
+width:14px;
+
+height:14px;
+
+border-radius:50%;
+
+background:#8b5cf6;
+
+box-shadow:
+0 0 10px #8b5cf6,
+0 0 20px #38bdf8;
+
+}
+
+.carousel-item img{
+
+transition:transform 6s ease;
+
+}
+
+.carousel-item.active img{
+
+transform:scale(1.08);
+
+}
+
+.carousel-caption h2{
+
+font-weight:bold;
+
+text-shadow:
+0 0 10px #ff66ff,
+0 0 20px #8b5cf6;
+
+animation:aparecerTexto 1s ease;
+
+}
+
+.carousel-caption p{
+
+animation:aparecerTexto 1.5s ease;
+
+}
+
+@keyframes aparecerTexto{
+
+from{
+
+opacity:0;
+
+transform:translateY(40px);
+
+}
+
+to{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
+
+}
+
+.registro-card{
+
+background:#121212;
+
+border:2px solid #8b5cf6;
+
+border-radius:20px;
+
+box-shadow:
+0 0 15px #8b5cf6,
+0 0 30px #38bdf8;
+color:white;
+
+}
+
+.form-control{
+
+background:#1a1a1a;
+
+border:1px solid #8b5cf6;
+
+color:white;
+
+}
+
+.form-control:focus{
+
+background:#1f1f1f;
+
+color:white;
+
+border-color:#38bdf8;
+
+box-shadow:
+0 0 10px #38bdf8;
+
+}
+
+.btn-registro{
+
+background:linear-gradient(
+90deg,
+#8b5cf6,
+#ff66ff,
+#38bdf8
+);
+
+border:none;
+
+color:white;
+
+font-weight:bold;
+
+}
+
+.btn-registro:hover{
+
+transform:scale(1.05);
+
+}
+
+.error{
+
+color:#ff4d6d;
+
+font-size:14px;
+
+margin-top:5px;
+
+}
+
+.mascota-anime{
+
+width:250px;
+
+animation:flotar 3s infinite ease-in-out;
+
+}
+
+.burbuja{
+
+background:white;
+
+color:black;
+
+padding:15px;
+
+border-radius:20px;
+
+display:inline-block;
+
+margin-top:15px;
+
+font-weight:bold;
+
+max-width:400px;
+
+}
+
+@keyframes flotar{
+
+0%{
+
+transform:translateY(0px);
+
+}
+
+50%{
+
+transform:translateY(-15px);
+
+}
+
+100%{
+
+transform:translateY(0px);
+
+}
+
+}
+
+.form-control,
+.form-control:focus{
+
+    background:#1a1a1a !important;
+    color:white !important;
+    border:1px solid #8b5cf6 !important;
+
+}
+
+.btn-registro{
+
+    background:linear-gradient(
+    90deg,
+    #8b5cf6,
+    #ff66ff,
+    #38bdf8
+    ) !important;
+
+    color:white !important;
+
+}
+
+.titulo-seccion{
+
+    text-align:center;
+
+    background:linear-gradient(
+    90deg,
+    #ff66ff,
+    #8b5cf6,
+    #38bdf8
+    );
+
+    background-clip:text;
+    -webkit-background-clip:text;
+    color:transparent;
+    -webkit-text-fill-color:transparent;
+
+    font-weight:bold;
+}
+
+.galeria-card{
+
+background:#121212;
+
+padding:15px;
+
+border-radius:20px;
+
+text-align:center;
+
+border:2px solid #8b5cf6;
+
+box-shadow:
+0 0 10px #8b5cf6,
+0 0 20px #38bdf8;
+
+transition:.5s;
+
+animation:aparecer 1s ease;
+
+}
+
+.galeria-card:hover{
+
+transform:translateY(-10px);
+
+box-shadow:
+0 0 20px #ff66ff,
+0 0 30px #38bdf8;
+
+}
+
+.galeria-img{
+
+width:100%;
+
+height:300px;
+
+object-fit:cover;
+
+border-radius:15px;
+
+transition:.5s;
+
+}
+
+.galeria-card:hover .galeria-img{
+
+transform:scale(1.08);
+
+}
+
+.galeria-card h5{
+
+margin-top:15px;
+
+color:white;
+
+font-weight:bold;
+
+}
+.table{
+
+border:2px solid #8b5cf6;
+
+box-shadow:
+0 0 15px #8b5cf6,
+0 0 25px #38bdf8;
+
+}
+
+.table th{
+
+color:#ff66ff;
+
+}
+
+.table td{
+
+color:white;
+
+}
+.info-nosotros{
+
+background:#121212;
+
+padding:25px;
+
+border-radius:20px;
+
+border:2px solid #8b5cf6;
+
+box-shadow:
+0 0 15px #8b5cf6,
+0 0 25px #38bdf8;
+
+color:white;
+
+}
+
+.mascota-nosotros{
+
+max-width:280px;
+
+animation:flotar 3s ease-in-out infinite;
+
+}
+
+.burbuja-anime{
+
+background:white;
+
+color:black;
+
+padding:15px;
+
+border-radius:20px;
+
+margin-top:15px;
+
+font-weight:bold;
+
+display:inline-block;
+
+max-width:350px;
+
+}
+
+.card-nosotros{
+
+background:#121212;
+
+color:white;
+
+border:2px solid #8b5cf6;
+
+border-radius:20px;
+
+box-shadow:
+0 0 15px #8b5cf6,
+0 0 25px #38bdf8;
+
+transition:.5s;
+
+}
+
+.card-nosotros:hover{
+
+transform:translateY(-10px);
+
+box-shadow:
+0 0 20px #ff66ff,
+0 0 35px #38bdf8;
+
+}
+
+@keyframes flotar{
+
+0%{
+transform:translateY(0);
+}
+
+50%{
+transform:translateY(-15px);
+}
+
+100%{
+transform:translateY(0);
+}
+
+}
+
+/* BLOG Y TIENDA ASIASTREAM */
+
+
+.modal-custom{
+
+background:#121212;
+
+color:white;
+
+border:2px solid #8b5cf6;
+
+box-shadow:
+0 0 15px #8b5cf6,
+0 0 25px #38bdf8;
+
+}
+
+.modal-header{
+
+border-bottom:1px solid #8b5cf6;
+
+}
+
+.modal-body{
+
+color:white;
+
+}
+
+/* TABLA TIENDA */
+
+.table{
+
+border:2px solid #8b5cf6;
+
+box-shadow:
+0 0 15px #8b5cf6,
+0 0 25px #38bdf8;
+
+border-radius:15px;
+
+overflow:hidden;
+
+}
+
+.table th{
+
+color:#ff66ff;
+
+font-weight:bold;
+
+text-align:center;
+
+}
+
+.table td{
+
+color:white;
+
+vertical-align:middle;
+
+}
+
+/* PRODUCTOS */
+
+.producto-card{
+
+background:#121212;
+
+border:2px solid #8b5cf6;
+
+border-radius:20px;
+
+overflow:hidden;
+
+box-shadow:
+0 0 15px #8b5cf6,
+0 0 25px #38bdf8;
+
+transition:.4s;
+
+}
+
+.producto-card:hover{
+
+transform:translateY(-10px);
+
+box-shadow:
+0 0 20px #ff66ff,
+0 0 35px #38bdf8;
+
+}
+
+.producto-card img{
+
+height:250px;
+
+object-fit:cover;
+
+}
+
+.producto-card .card-body{
+
+color:white;
+
+}
+
+.precio{
+
+font-size:20px;
+
+font-weight:bold;
+
+color:#38bdf8;
+
+}
+
+/* BOTONES */
+
+.btn-custom{
+
+background:linear-gradient(
+90deg,
+#8b5cf6,
+#ff66ff,
+#38bdf8
+);
+
+border:none;
+
+color:white;
+
+font-weight:bold;
+
+transition:.3s;
+
+}
+
+.btn-custom:hover{
+
+transform:scale(1.05);
+
+box-shadow:
+0 0 15px #ff66ff,
+0 0 25px #38bdf8;
+
+}
+
+/* TÍTULOS */
+
+.titulo-seccion{
+
+text-align:center;
+
+margin-bottom:40px;
+
+font-size:40px;
+
+font-weight:bold;
+
+background:linear-gradient(
+90deg,
+#ff66ff,
+#8b5cf6,
+#38bdf8
+);
+
+background-clip:text;
+-webkit-background-clip:text;
+
+color:transparent;
+-webkit-text-fill-color:transparent;
+
+}
+
+/* ANIMACIÓN */
+
+@keyframes aparecer{
+
+from{
+
+opacity:0;
+
+transform:translateY(40px);
+
+}
+
+to{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
+
+}
+
+.card-anime,
+.producto-card{
+
+animation:aparecer .8s ease;
+
+}
+.buscador-container{
+
+max-width:600px;
+
+margin:auto;
+
+margin-bottom:40px;
+
+}
+
+.subtitulo{
+
+color:#38bdf8;
+
+font-weight:bold;
+
+margin-bottom:30px;
+
+text-align:center;
+
+}
+
+#buscarAnime,
+#buscarDorama{
+
+background:#121212;
+
+color:white;
+
+border:2px solid #8b5cf6;
+
+box-shadow:
+0 0 10px #8b5cf6,
+0 0 20px #38bdf8;
+
+}
+/* NOTICIA DESTACADA */
+
+.noticia-destacada{
+
+background:#121212;
+
+border:2px solid #8b5cf6;
+
+border-radius:25px;
+
+overflow:hidden;
+
+box-shadow:
+0 0 20px #8b5cf6,
+0 0 35px #38bdf8;
+
+color:white;
+
+transition:.5s;
+
+}
+
+.noticia-destacada:hover{
+
+transform:translateY(-8px);
+
+box-shadow:
+0 0 25px #ff66ff,
+0 0 40px #38bdf8;
+
+}
+
+.noticia-img{
+
+height:100%;
+
+object-fit:cover;
+
+min-height:300px;
+
+}
+
+.badge{
+
+font-size:14px;
+
+padding:10px;
+
+}
+
+/* LEER MAS */
+
+.anime-detalle{
+
+background:#121212;
+
+padding:30px;
+
+border-radius:25px;
+
+color:white;
+
+box-shadow:
+0 0 20px #8b5cf6,
+0 0 35px #38bdf8;
+
+}
+
+.portada-anime{
+
+width:100%;
+
+border-radius:20px;
+
+border:2px solid #8b5cf6;
+
+box-shadow:
+0 0 15px #8b5cf6,
+0 0 25px #38bdf8;
+
+}
+
+.info-anime p{
+
+font-size:18px;
+
+margin-bottom:12px;
+
+}
+
+.info-anime strong{
+
+color:#c084fc;
+
+}
+
+
+
+/* VER */
+
+.anime-detalle{
+
+background:#121212;
+
+padding:30px;
+
+border-radius:25px;
+
+color:white;
+
+border:2px solid #8b5cf6;
+
+box-shadow:
+0 0 20px #8b5cf6,
+0 0 35px #38bdf8;
+
+}
+
+.portada-anime{
+
+width:100%;
+
+border-radius:20px;
+
+border:2px solid #8b5cf6;
+
+box-shadow:
+0 0 15px #8b5cf6,
+0 0 25px #38bdf8;
+
+}
+
+.capitulos{
+
+display:flex;
+
+flex-wrap:wrap;
+
+gap:15px;
+
+margin-top:20px;
+
+}
+
+.btn-capitulo{
+
+padding:12px 20px;
+
+background:#8b5cf6;
+
+color:white;
+
+text-decoration:none;
+
+border-radius:12px;
+
+transition:.3s;
+
+}
+
+.btn-capitulo:hover{
+
+background:#ff66ff;
+
+transform:scale(1.05);
+
+}
